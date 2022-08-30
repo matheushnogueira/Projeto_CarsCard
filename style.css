@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --cor0:hsl(31, 77%, 52%);
+    --cor1:hsl(184, 100%, 22%);
+    --cor2:hsl(179, 100%, 13%);
+    --corp:hsla(0, 0%, 100%, 0.75);
+    --corb:hsl(0, 0%, 95%);
+    --font1: 'Big Shoulders Display', cursive;
+    --font2: 'Lexend Deca', sans-serif;
+}
+
+body { 
+    font-family: var(--font2);
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.card {
+    margin: 100px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.card1 {
+    background-color:var(--cor0); 
+    width: 200px; 
+    height: 350px; 
+    padding: 50px; 
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+.card2 {
+    background-color: var(--cor1); 
+    width: 200px; 
+    height: 350px; 
+    padding: 50px; 
+}
+
+.card3 {
+    background-color: var(--cor2); 
+    width: 200px; 
+    height: 350px; 
+    padding: 50px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.titulo{
+    font-family: var(--font1); 
+    color: var(--corp);
+    font-size: xx-large;
+}
+
+.text {
+    color: var(--corp); 
+    font-family: var(--font2); 
+    font-size: small;
+    line-height: 20px;
+}
+
+.button1 {
+    margin-top: 80px ;
+    background-color: var(--corb); 
+    color: var(--cor0); 
+    font-family: var(--font2); 
+    width: 120px;
+    padding: 15px; 
+    border-radius: 30px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.button1:hover{
+    background-color: transparent;
+    color: var(--corb);
+    border: 2px solid var(--corb)
+}
+
+.button2 {
+    margin-top: 80px ;
+    background-color:var(--corb); 
+    color: var(--cor1); 
+    font-family: var(--font2); 
+    width: 120px;
+    padding: 15px; 
+    border-radius: 30px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.button2:hover{
+    background-color: transparent;
+    color: var(--corb);
+    border: 2px solid var(--corb)
+}
+.button3 {
+    margin-top: 80px ;
+    background-color:var(--corb); 
+    color: var(--cor2); 
+    font-family: var(--corb); 
+    width: 120px;
+    padding: 15px; 
+    border-radius: 30px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.button3:hover{
+    background-color: transparent;
+    color: var(--corb);
+    border: 2px solid var(--corb)
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
